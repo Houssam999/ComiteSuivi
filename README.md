@@ -2,7 +2,7 @@ ComiteSuivi
 
 Overview
 
-This repository contains a Python script, cst5.py, designed to analyze the vein network structures of Physarum polycephalum from a sequence of binary images. The script performs several key functions:
+This repository contains a Python script, cst2.py, designed to analyze the vein network structures of Physarum polycephalum from a sequence of binary images. The script performs several key functions:
 
 Skeletonization: It skeletonizes the binary images to extract the vein network structure.
 Node Detection and Labeling: It detects and labels nodes (endpoints and junctions) within the skeletonized network.
@@ -12,7 +12,7 @@ Fractal Dimension Calculation: It computes the fractal dimension of each segment
 Node Hierarchy Calculation: It calculates the hierarchical distance of each node from the central node in the network graph.
 Visualization: It generates visualizations for verification and analysis.
 Data Export: It saves the results, including images and detailed CSV files, for further study and for calibrating theoretical mathematical models.
-The script is optimized for parallel processing, utilizing multiple CPU cores (up to 40 cores) to efficiently handle large datasets.
+The script is optimized for parallel processing, utilizing multiple CPU cores to efficiently handle large datasets.
 
 Features
 
@@ -210,7 +210,8 @@ Hierarchical Distance: The hierarchical distance represents the shortest path le
 Integrated Data: Hierarchical distances are included directly in the node data CSV files, simplifying data analysis.
 Parallel Processing
 Optimized Performance: Utilizing up to 40 CPU cores, the script can process large datasets efficiently.
-Resource Management: Ensure your system can support 40 parallel processes to avoid overloading.
+Resource Management: Ensure your system can support multiple parallel processes to avoid overloading.
+
 Contact
 
 For any questions, feedback, or further information, please contact:
