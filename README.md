@@ -1,4 +1,4 @@
-ComiteSuivi
+Comité de suivi de thèse
 
 Overview
 
