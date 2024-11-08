@@ -1,8 +1,7 @@
 #!/usr/bin/env python3
 """
 This script processes a sequence of binary images of Physarum polycephalum.
-It measures segment widths, saves visualizations of the processed images,
-computes the fractal dimension for each segment, and calculates the node hierarchy.
+
 """
 
 import numpy as np
@@ -14,7 +13,7 @@ from collections import defaultdict
 import pandas as pd
 from multiprocessing import Pool
 import os
-import networkx as nx  # Import networkx to build the graph
+import networkx as nx  
 
 # Definition of the class CompareNeighborsWithValue
 class CompareNeighborsWithValue:
